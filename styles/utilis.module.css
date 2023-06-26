@@ -1,0 +1,38 @@
+.bckgrnd{
+    background-image: url('/images/biz.jpeg');
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.letters {
+    color: black;
+    font-size: 30px;
+}
+.uppercase{
+    color: cyan;
+}
+.profile{
+size: 2px;
+}
+.blog{
+    font-size: 20px;
+    font-style: inherit;
+}
+.headx{
+    background: -moz-radial-gradient();
+    outline: 2rem;
+    flex: content;
+    color: black;
+    font-size: 30px;
+
+}
+.headingx2{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(9, 18, 92);
+}
+.classes{
+    color: black;
+    flex-shrink: inherit;
+    font-size: 30px;
+}
