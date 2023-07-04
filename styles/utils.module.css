@@ -1,12 +1,14 @@
 .bckgrnd{
     background-image: url('/images/biz.jpeg');
-    background-position: center;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 800px;
+    width: 1350px;
 }
 .letters {
     color: black;
     font-size: 30px;
+    
 }
 .uppercase{
     color: cyan;
@@ -35,4 +37,19 @@ size: 2px;
     color: black;
     flex-shrink: inherit;
     font-size: 30px;
+}
+
+.mkt{
+    background-color: yellow;
+}
+.venture{
+    background-color: black;
+    position:inherit;
+    justify-content: center;
+    border-radius: 20%;
+    text-align: center;
+    align-items: center;
+}
+.lee{
+    text-align: center;
 }
