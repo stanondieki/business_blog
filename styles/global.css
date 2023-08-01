@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-image: url('/images/innovation.jpeg');
+    background-image: url('/images/P13.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(1);
@@ -16,13 +16,12 @@ body{
 } 
 a{
     transition: background-color 0.3s ease;
-    background-color: yellow;
-    border-radius: 200px;
-    width: auto;
-    padding: 1pc;
+    padding: 0%;
+    padding: 0.5pc;
+    color: white;
 }
 a:hover{
-    background-color: rgba(0, 123, 255, 0);
+    background-color: cyan;
 }
 h1, h2, h3{
     color: cyan;
@@ -33,17 +32,16 @@ li{
 }
 b{
     text-decoration: underline;
-    color: yellowgreen;
+    color:gold;
 }
 p{
-    color: blanchedalmond;
+    color: white;
 }
 Link{
-    
-    color: blueviolet;
+    color: blue;
 }
 Image{
-    border-radius: 200px;
+    border-radius: 50%;
 }
 h1{
     text-decoration:overline;
@@ -54,6 +52,10 @@ h2{
 ul{
     font-size: larger;
 }
-h3{
-    font-size: 200%;
+button{
+    align-items: center;
+    align-content: flex-end;
+    right: 0;
+    top: 50;
+    color: black;
 }

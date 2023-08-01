@@ -20,7 +20,7 @@ export default function faqspost()
             <h2>Frequently Asked Questions(FAQs)</h2>
             <p>Here are some questions our customers ask:</p>
             <h3>1. How can I place an Order?</h3>
-            <p>To place an oreder, simply visit our website and browse our product catalog. Select the items you wish to purchase and add them to your cart. Proceed to the checkout page, enter your shipping and payment information, and confirm your order. If you have any issues or need an assistance, our customer support team is ready to help.</p>
+            <p>To place an order, simply visit our website and browse our product catalog. Select the items you wish to purchase and add them to your cart. Proceed to the checkout page, enter your shipping and payment information, and confirm your order. If you have any issues or need an assistance, our customer support team is ready to help.</p>
             <h3>2. What payment methods do you accept?</h3>
             <p>We aacept various payment methods including credit cards(Visa and Mastercard), PayPal and bank transfers. You can choose your preferred payment method during the checkout process. Rest assured that all payment transactions are secure and encrypted.</p>
             <h3>3. How long will it take to receive my order?</h3> 

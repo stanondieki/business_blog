@@ -2,8 +2,15 @@ import Head  from 'next/head'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useState } from 'react'
 
 export default function Home() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
   return (
       <main>
   <Head>
@@ -14,18 +21,8 @@ export default function Home() {
   </Head>
 
   <main>
-    <div> 
-      <h1>LEE BUSINESS BLOG</h1>
-    </div>
-<div className={utilStyles.venture}>
-  <p>
-        Venture the Adventures of our Business&nbsp;
-  </p>
-</div>
-    <section>
+    <section className={utilStyles.h3x}>
       <ul className={utilStyles.lee}>
-      <h1>About</h1>
-              
                 <h3><Link href="posts/market">  Marketing  </Link></h3> 
                 <h3><Link href="posts/innovation">Innovation</Link></h3>
                 <h3><Link href="posts/management">Management</Link></h3>
@@ -33,6 +30,99 @@ export default function Home() {
                 <h3><Link href="posts/resources">Resources</Link></h3>          
           </ul>
     </section>
+    <div className={utilStyles.h1x}> 
+      <h1>THE LEE BUSINESS BLOG</h1>
+    </div>
+    <div className={utilStyles.button}>
+      <div className='dropdown'>
+        <Link href=''>
+          <button className='dropdown-toggle' onClick={toggleDropdown}>Social Media</button>
+            {
+              isOpen && (
+                <div>
+                 <a href="facebook.com">
+                  <Image
+                  src='/images/icons/fb.png'
+                  height={30}
+                  width={40}
+                  />
+                  </a>
+                  <a href="instagram.com">
+                    <Image
+                  src='/images/icons/ig.png'
+                  height={30}
+                  width={40}
+                  />
+                  </a>
+                  <a href="twitter.com"> <Image
+                  src='/images/icons/tweet.jpeg'
+                  height={30}
+                  width={40}
+                  />
+                  </a>
+                </div>
+              
+              )
+           }
+        </Link>
+      </div>
+      <Link href=''><button>Recruitment</button></Link>
+      <Link href=''><button>Web</button></Link>
+      <Link href=''><button>About Us</button></Link>
+      <Link href=''><button>Contact</button></Link>
+    </div>
+
+    <div className='dropdown'>
+      <button className='dropdown-toggle' onClick={toggleDropdown}>
+        Already have an account?
+        </button>
+        {isOpen && (
+          <div>
+            <a href='posts/login'>Login</a> <br />
+            <a href='#'>Register</a> <br />
+          </div>
+        ) }
+    </div>
+    
+<div className={utilStyles.venture}>
+  <p>
+        Venture the Adventures of our Business&nbsp;
+  </p>
+</div>
+
+<div className={utilStyles.image}>
+  <Link href='/posts/market'><Image
+    src='/images/P5.jpeg'
+    height={200}
+    width={255}
+  /></Link>
+
+  <Link href='/posts/innovation'><Image
+    src='/images/images (12).jpeg'
+    height={200}
+    width={255}
+  /></Link>
+  <Link href='/posts/management'><Image
+  src='/images/leads.jpeg'
+  height={200}
+  width={255}
+  /></Link>
+ <Link href='/posts/faqs'> <Image
+  src='/images/faqs.jpeg'
+  height={200}
+  width={255}
+  /></Link>
+  <Link href='/posts/resources'><Image
+  src='/images/P10.jpeg'
+  height={200}
+  width={255}/></Link>
+</div>
+
+<div className={utilStyles.par}>
+<p className={utilStyles.par}>Unlock the secrets to success, and stay ahead of the competetion with our expert insights. <br/> We are your ultimate destination for all things business-whether you're an aspiring entrepenuer, a seasoned proffesional or just someone with passion for the world of commerce.</p>
+<p className={utilStyles.par}>Join a thriving community of like-minded individuals and take your business to new heights!</p>
+</div>
+
   </main>
    </main>   
   )

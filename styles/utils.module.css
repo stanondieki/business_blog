@@ -6,9 +6,8 @@
     width: 1350px;
 }
 .letters {
-    color: black;
+    color: rgb(192, 166, 166)06, 111, 111));
     font-size: 30px;
-    
 }
 .uppercase{
     color: cyan;
@@ -51,5 +50,42 @@ size: 2px;
     align-items: center;
 }
 .lee{
+    justify-content: right;
+    display: flex;
+}
+.h1x{
     text-align: center;
+}
+.button{
+    justify-content: right;
+    display: flex;
+}
+.h3x{
+    font-size: 60%;
+}
+.txt3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: justify;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.image{
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+padding: 0%;
+margin: -5px;
+gap: 0%;
+}
+
+.par{
+    font-size: large;
+    text-align: center;
+    font-style: inherit;
+    font-size: 20px;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
