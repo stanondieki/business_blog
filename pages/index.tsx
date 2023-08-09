@@ -35,11 +35,10 @@ export default function Home() {
     </div>
     <div className={utilStyles.button}>
       <div className='dropdown'>
-        <Link href=''>
           <button className='dropdown-toggle' onClick={toggleDropdown}>Social Media</button>
             {
               isOpen && (
-                <div>
+                <div className={utilStyles.ico}>
                  <a href="facebook.com">
                   <Image
                   src='/images/icons/fb.png'
@@ -64,7 +63,6 @@ export default function Home() {
               
               )
            }
-        </Link>
       </div>
       <Link href=''><button>Recruitment</button></Link>
       <Link href=''><button>Web</button></Link>
