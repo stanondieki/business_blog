@@ -8,11 +8,12 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    background-image: url('/images/P13.jpeg');
+    background-image: url('/images/P7.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(1);
     color: whitesmoke;
+    
 } 
 a{
     transition: background-color 0.3s ease;
@@ -21,10 +22,10 @@ a{
     color: white;
 }
 a:hover{
-    background-color: cyan;
+    background-color: rgb(180, 231, 231);
 }
 h1, h2, h3{
-    color: cyan;
+    color: rgb(191, 230, 230);
 }
 li{
     color: rgb(243, 243, 248);

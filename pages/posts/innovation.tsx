@@ -13,6 +13,7 @@ export default function InnoPost()
         <div>
         <Image
             src='/images/images (12).jpeg'
+            alt="innovation"
             width={130}
             height={100}
             priority

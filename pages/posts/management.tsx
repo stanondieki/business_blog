@@ -12,6 +12,7 @@ export default function ManagePost(){
         <div>
              <Image
                 src='/images/leads.jpeg'
+                alt="management"
                 width={120}
                 height={90}
             />

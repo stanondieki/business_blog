@@ -13,6 +13,7 @@ export default function faqspost()
             <div>
             <Image
             src="/images/faqs.jpeg"
+            alt="faqs"
             width={120}
             height={90}
             />

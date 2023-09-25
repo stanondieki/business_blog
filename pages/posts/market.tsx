@@ -8,9 +8,11 @@ export default function MarketPost() {
         <Head>
             <title>MarketPost</title>
         </Head>
+        <div>
         <h1>MARKETING</h1>
             <Image
             src= '/images/marketing.png'
+            alt="marketing"
             width={120}
             height={90}
             priority
@@ -31,6 +33,7 @@ export default function MarketPost() {
         <h2>
             <Link href="/">Back home </Link>
         </h2>
+        </div>
         </>
 
     )
