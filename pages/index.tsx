@@ -29,7 +29,7 @@ export default function Home() {
                 <h3><Link href="posts/management">Management</Link></h3>
                 <h3><Link href="posts/faqs">FAQs</Link></h3> 
                 <h3><Link href="posts/resources">Resources</Link></h3>
-                <h3><Link href="posts/UserList">Users</Link></h3>          
+                <h3><Link href="/UserList">UserList</Link></h3>          
           </ul>
     </section>
     <div className={utilStyles.h1x}> 
