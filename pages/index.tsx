@@ -135,7 +135,7 @@ export default function Home() {
 
 <div className={utilStyles.box}>
 <p className={utilStyles.par}>Unlock the secrets to success, and stay ahead of the competetion with our expert insights. <br/> We are your ultimate destination for all things business-whether you're an aspiring entrepenuer, a seasoned proffesional or just someone with passion for the world of commerce.</p>
-<p className={utilStyles.par}>Join a thriving community of like-minded individuals and take your business to new heights!</p>
+<p className={utilStyles.par}>Join a thriving community of like-minded individuals and take your business to new heights!</p>3
 </div>
 
 
